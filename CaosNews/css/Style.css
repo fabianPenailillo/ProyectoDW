@@ -1,0 +1,180 @@
+/*Seteo de Página y color de Background*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body
+{
+    background: #11101d;
+    overflow-x: hidden;
+}
+
+/*Seteo de Menu*/
+
+#menu ul li {
+    background-color: #11101d;
+    width: 250px;
+}
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#menu ul li:hover {
+    background:#5b78a7;
+}
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+
+#menu ul ul li {
+    float:none;
+    width:341px;
+}
+
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+
+#menu ul li:hover > ul {
+    display:block;
+}
+section h1
+{
+    text-align: center;
+    color: white;
+    top: 100px;
+}
+#menu .buscar
+{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    text-transform:uppercase;
+    text-align: center;
+}
+#menu .buscar #buscador
+{
+    background: #1d1b31;
+    border-radius: 10px;
+    width: 200px;
+    border: 0;
+    text-transform:uppercase;
+    text-align: center;
+    color: whitesmoke;
+}
+#menu .buscar #botonb
+{
+    background-color: #1d1b31;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    border: 0;
+    text-transform:uppercase;
+}
+.carousel-caption
+{
+    background: #11101d;
+    border-radius: 10px;
+}
+footer
+{
+    background: #1d1b31;
+}
+#Links
+{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#Links a
+{
+    text-decoration: none;
+    color: white;
+}
+#CopyRight
+{
+    color: white;
+    text-align: center;
+}
+.carousel-caption a
+{
+    text-decoration: none;
+    background: #1d1b31;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: #5b78a7;
+}
+.card{
+    margin: 10px;
+    text-align: center;
+}
+.card img
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card a
+{
+    margin-bottom: 10px;
+    background: #1d1b31;
+    width: 100px;
+    border-color: #5b78a7;
+}
+.card a:hover
+{
+    background: #11101d;
+    border-color: #5b78a7;
+}
+nav .nav-item
+{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+nav .d-flex input
+{
+    background: #11101d;
+    border-radius: 10px;
+}
+nav .d-flex button
+{
+    background: #11101d;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #fff;
+}

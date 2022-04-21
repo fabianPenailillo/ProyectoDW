@@ -1,0 +1,182 @@
+/*Seteo de Página y color de Background*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body
+{
+    background: #11101d;
+    overflow-x: hidden;
+}
+
+/*Seteo de Menu*/
+
+#menu ul li {
+    background-color: #11101d;
+    width: 250px;
+}
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#menu ul li:hover {
+    background:#5b78a7;
+}
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+
+#menu ul ul li {
+    float:none;
+    width:341px;
+}
+
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+
+#menu ul li:hover > ul {
+    display:block;
+}
+section h1
+{
+    text-align: center;
+    color: white;
+    top: 100px;
+}
+#menu .buscar
+{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    text-transform:uppercase;
+    text-align: center;
+}
+#menu .buscar #buscador
+{
+    background: #1d1b31;
+    border-radius: 10px;
+    width: 200px;
+    border: 0;
+    text-transform:uppercase;
+    text-align: center;
+    color: whitesmoke;
+}
+#menu .buscar #botonb
+{
+    background-color: #1d1b31;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    border: 0;
+    text-transform:uppercase;
+}
+footer
+{
+    background: #1d1b31;
+}
+#Links
+{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#Links a
+{
+    text-decoration: none;
+    color: white;
+}
+#CopyRight
+{
+    color: white;
+    text-align: center;
+}
+.container
+{
+    background-color: #1d1b31;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    border: 10px;
+}
+.container input, textarea
+{
+    width: 500px;
+    background: #11101d;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.toggle
+{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+@media (max-width: 768px){
+    .nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    }
+
+}
+nav .nav-item
+{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+nav .d-flex input
+{
+    background: #11101d;
+    border-radius: 10px;
+}
+nav .d-flex button
+{
+    background: #11101d;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #fff;
+}

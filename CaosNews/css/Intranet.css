@@ -1,0 +1,141 @@
+/* Declarar fuentes */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body /* Editar Body */
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #11101d;
+}
+.container
+{
+    top: 10px;
+    position: relative;
+    width: 350px;
+    min-height: 500px;
+    max-height: 700px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1d1b31;
+    border-radius: 12px;
+    padding: 50px;
+}
+.container h3
+{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inputBox span
+{
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    border-left: 4px solid #fff;
+    padding-left: 4px;
+    line-height: 1em;
+}
+
+.inputBox .box
+{
+    display: flex;
+}
+
+.inputBox .box .icon
+{
+    position: relative;
+    min-width: 40px;
+    height: 40px;
+    background: #11101d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 1.15em;
+}
+.inputBox .box input
+{
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    letter-spacing: 1px;
+    font-size: 0.85em;
+    background: #2f2c46;
+    color: #fff;
+}
+.inputBox .box input[type="submit"]
+{
+    background: #11101d;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+label
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.85em;
+    display: flex;
+    align-items: center;
+}
+label input
+{
+    margin-right: 5px;
+}
+.forgot
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.85em;
+    text-decoration: none;
+
+}
+.back
+{
+    position: absolute;
+    min-width: 40px;
+    height: 40px;
+    background: #2f2c46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 1.15em;
+    top: 20px;
+    left: 20px;
+
+}
